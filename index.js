@@ -27,13 +27,11 @@ function logWhisper(string) {
   return console.log(string.toLowerCase())
 }
 function sayHiToGrandma(string) {
-  if ($shout(string)) {
-    console.log("I can`t hear you")
-  }
-}
-  if ($shout(string)) {
-    console.log("YES INDEED")
-}
-else {
-    console.log("I love you, too")
+  if (sayHiToGrandma(string) === "hello")
+  	console.log("I can`t hear you")
+	} else if (sayHiToGrandma(string) === "HELLO") {
+	console.log ("YES INDEED")
+	} else {
+	console.log("I love you, too.")
+	}
 }
